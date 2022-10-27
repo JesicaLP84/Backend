@@ -1,1 +1,2 @@
-Espero que salga el conflicto
+Espero que salga el conflicto2PROYECTOGIT/fichero1.txt
+PROYECTOGIT/fichero1.txt
