@@ -1,2 +1,2 @@
 
-"Tercera linea de fichero1"
+"Tercera linea  fichero1"
