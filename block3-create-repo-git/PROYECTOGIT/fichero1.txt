@@ -1,1 +1,2 @@
-"Tercera linea de fichero1" -- Aqui pongo esto para resolver conflictos
+
+"Tercera linea de fichero1"
