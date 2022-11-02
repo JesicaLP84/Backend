@@ -14,8 +14,7 @@ import org.springframework.stereotype.Component;
 	greeting=Hello world!
 	my.number=100*/
 
-
-@Component
+@Component //
 public class Block5PropertiesApplication implements CommandLineRunner {
 
 
@@ -23,7 +22,6 @@ public class Block5PropertiesApplication implements CommandLineRunner {
 		SpringApplication.run(Block5PropertiesApplication.class, args);
 
 	}
-
 
     //Llamamos al primer valor del fichero
 	@Value("${greeting}")
@@ -53,7 +51,7 @@ public class Block5PropertiesApplication implements CommandLineRunner {
 		System.out.println("El valor de new.property: " + newPropertyString);
 	}
 
-	/*NOTA IMPORTANTE: Para hacer la segunda parte del ejercicio, he tenido que eliminar el archivo application.properties
+	/*NOTA IMPORTANTE: Para hacer la segunda parte del ejercicio, he tenido que dejar comentado el archivo application.properties
 	 por lo que he adaptado los valores dentro de YML para que sean llamados a consola e imprima los datos correctamente
 	 */
 }
