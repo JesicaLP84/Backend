@@ -1,0 +1,50 @@
+2022-11-04 10:33:58.882  INFO 23940 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 23940 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 10:33:58.897  INFO 23940 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 10:33:59.449  INFO 23940 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.989 seconds (JVM running for 1.351)
+2022-11-04 10:33:59.453  WARN 23940 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 10:33:59.455  INFO 23940 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 10:50:08.613  INFO 2140 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 2140 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 10:50:08.615  INFO 2140 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 10:50:09.052  INFO 2140 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.794 seconds (JVM running for 1.096)
+2022-11-04 10:50:09.054  WARN 2140 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 10:50:09.054  INFO 2140 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 10:50:09.055 ERROR 2140 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en archivo
+2022-11-04 10:53:06.599  INFO 24812 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 24812 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 10:53:06.601  INFO 24812 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 10:53:07.039  INFO 24812 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.795 seconds (JVM running for 1.058)
+2022-11-04 10:53:07.041  WARN 24812 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 10:53:07.042  INFO 24812 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 10:53:07.042 ERROR 24812 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en archivo
+2022-11-04 11:04:00.357  INFO 11644 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 11644 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 11:04:00.361  INFO 11644 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 11:04:00.801  INFO 11644 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.806 seconds (JVM running for 1.077)
+2022-11-04 12:00:28.039  INFO 16888 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 16888 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 12:00:28.041  INFO 16888 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 12:00:28.525  INFO 16888 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.886 seconds (JVM running for 1.205)
+2022-11-04 12:00:28.528  WARN 16888 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 12:00:28.528  INFO 16888 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 12:00:28.528 ERROR 16888 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en archivo
+2022-11-04 12:01:32.568  INFO 22104 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 22104 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 12:01:32.570  INFO 22104 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 12:01:33.009  INFO 22104 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.775 seconds (JVM running for 1.085)
+2022-11-04 12:01:33.012  WARN 22104 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 12:01:33.013  INFO 22104 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 12:01:33.013 ERROR 22104 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en un archivo
+2022-11-04 12:15:33.863  INFO 7720 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 7720 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 12:15:33.865  INFO 7720 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 12:15:34.290  INFO 7720 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.849 seconds (JVM running for 1.185)
+2022-11-04 12:15:34.292  WARN 7720 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 12:15:34.292  INFO 7720 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 12:15:34.292 ERROR 7720 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en un archivo
+2022-11-04 12:16:10.237  INFO 25280 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 25280 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 12:16:10.240  INFO 25280 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 12:16:10.772  INFO 25280 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.873 seconds (JVM running for 1.142)
+2022-11-04 12:16:10.776  WARN 25280 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 12:16:10.776  INFO 25280 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 12:16:10.776 ERROR 25280 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en un archivo
+2022-11-04 12:16:40.950  INFO 24004 --- [main] c.b.f.b.Block5LoggingApplication         : Starting Block5LoggingApplication using Java 17.0.4.1 on L2202061 with PID 24004 (C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging\target\classes started by jesica.lopez in C:\Users\jesica.lopez\Desktop\GITHUB\Backend\block5-logging)
+2022-11-04 12:16:40.952  INFO 24004 --- [main] c.b.f.b.Block5LoggingApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-11-04 12:16:41.387  INFO 24004 --- [main] c.b.f.b.Block5LoggingApplication         : Started Block5LoggingApplication in 0.797 seconds (JVM running for 1.056)
+2022-11-04 12:16:41.390  WARN 24004 --- [main] c.b.f.b.Block5LoggingApplication         : Cuidado con los Comandos para Logging
+2022-11-04 12:16:41.390  INFO 24004 --- [main] c.b.f.b.Block5LoggingApplication         : Ahora seguiremos con DEBUG
+2022-11-04 12:16:41.390 ERROR 24004 --- [main] c.b.f.b.Block5LoggingApplication         : Este mensaje se guarda en un archivo
