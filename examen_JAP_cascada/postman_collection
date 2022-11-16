@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "b838a65a-9c7a-41dc-8e5f-0543b66a6552",
+		"name": "examen_JPA_cascada",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24307076"
+	},
+	"item": [
+		{
+			"name": "/factura",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "factura /{idFra}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "factura/linea/{idFra}",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/factura/linea/{idFra}  ",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"factura",
+						"linea",
+						"{idFra}  "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nuevoCliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombreCliente\": \"Construcciones sl\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/nuevoCliente",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"nuevoCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nuevaFactura",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
