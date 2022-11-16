@@ -1,23 +1,30 @@
 package com.bosonit.formacion.Controllers;
 
-import com.bosonit.formacion.Class.Person;
-import com.bosonit.formacion.Service.PersonService;
+import com.bosonit.formacion.City.Model.City;
+import com.bosonit.formacion.Person.Model.Person;
+import com.bosonit.formacion.City.CityServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @RequestMapping
+@Configuration
 public class ControllerOne {
 
+
     @Autowired
-    PersonService personServices;
+    CityServiceImp cityService;
 
     @Autowired
     Person person;
+
+    @Autowired
+    City city;
+
 
     //Funcionamiento de forma individual para probarlo
     @GetMapping("/controllerOne/addPerson")
@@ -29,6 +36,12 @@ public class ControllerOne {
 
         return "He añadido a una Persona llamada " + person.getName() + ", vive en " + "" + person.getCity() + " y tiene " + person.getAge() + " años";
 
+    }
+
+    @PostMapping("controllerOne/addCity")
+    public ResponseEntity<Object> createCity(@RequestBody City city){
+        cityService.createCity(city);
+        return new ResponseEntity<>("Ciudades creadas", HttpStatus.OK);
     }
 
 

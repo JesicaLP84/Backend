@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "3d9911a4-b25e-4930-90fc-e739df55e4ce",
+		"name": "B6_person-Controllers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24307076"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"item": [
+				{
+					"name": "ControllerOne",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true,
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "name",
+								"value": "antonia",
+								"type": "text"
+							},
+							{
+								"key": "city",
+								"value": "madrid",
+								"type": "text"
+							},
+							{
+								"key": "age",
+								"value": "45",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/controllerOne/addPerson",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"controllerOne",
+								"addPerson"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ControllerTow",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "name",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "city",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "age",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{local}}/controllerTow/getPerson",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"controllerTow",
+								"getPerson"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "controllerOne/getCity",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST",
+			"item": [
+				{
+					"name": "ControllerOne/AddCity",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{local}}/controllerOne/addCity?name=seville&population=125475",
+							"host": [
+								"{{local}}"
+							],
+							"path": [
+								"controllerOne",
+								"addCity"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "seville"
+								},
+								{
+									"key": "population",
+									"value": "125475"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ControllerBean",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

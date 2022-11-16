@@ -1,6 +1,6 @@
-package com.bosonit.formacion.Service;
+package com.bosonit.formacion.Person.Service;
 
-import com.bosonit.formacion.Class.Person;
+import com.bosonit.formacion.Person.Model.Person;
 
 public interface PersonService {
 
@@ -16,5 +16,5 @@ public interface PersonService {
 
     String getName();
 
-    String getAge();
+    int getAge();
 }

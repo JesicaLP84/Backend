@@ -1,4 +1,4 @@
-package com.bosonit.formacion.Class;
+package com.bosonit.formacion.Person.Model;
 
 import org.springframework.stereotype.Component;
 
