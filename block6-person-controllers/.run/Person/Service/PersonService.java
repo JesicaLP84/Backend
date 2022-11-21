@@ -1,9 +1,6 @@
 package com.bosonit.formacion.Person.Service;
 
-import com.bosonit.formacion.Person.Model.Person;
-
 public interface PersonService {
-
     public abstract Person createPerson(Person person);
 
     Person getPerson(Person person);

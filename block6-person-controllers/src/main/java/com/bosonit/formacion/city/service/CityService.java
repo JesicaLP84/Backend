@@ -1,13 +1,12 @@
-package com.bosonit.formacion.City;
+package com.bosonit.formacion.city.service;
 
-import com.bosonit.formacion.City.Model.City;
+import com.bosonit.formacion.city.model.City;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
 public interface CityService {
-
     List<City> listCities = new ArrayList<>();
     String getName();
 
@@ -24,6 +23,4 @@ public interface CityService {
     public abstract void deleteCity(String name);
 
     public abstract Collection<City> getCities();
-
-
 }

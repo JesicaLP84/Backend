@@ -1,12 +1,17 @@
-package com.bosonit.formacion.City;
+package com.bosonit.formacion.city.service;
 
-import com.bosonit.formacion.City.Model.City;
+import com.bosonit.formacion.city.model.City;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
-@Service
+@Service // --> This annotation implements the CityService interface and writes the logic to store, retrieve, delete and update the city.
+
 public class CityServiceImp implements CityService {
+
+    //Create an interface that contains add, edit, get and delete methods
     private static Map<String, City> cityRepo = new HashMap<>();
     static {
         City city = new City();
@@ -14,11 +19,7 @@ public class CityServiceImp implements CityService {
         city.setPopulation(652123);
         cityRepo.put(city.getName(),city);
 
-        city.setName("Madrid");
-        city.setPopulation(3652123);
-        cityRepo.put(city.getName(),city);
     }
-
     @Override
     public String getName() {
         return null;
@@ -42,21 +43,16 @@ public class CityServiceImp implements CityService {
 
     @Override
     public void updateCity(String name, int population) {
-        cityRepo.remove(name);
-        City city = new City();
-        city.setName(name);
-        cityRepo.put(name,city);
+
     }
 
     @Override
     public void deleteCity(String name) {
-        cityRepo.remove(name);
+
     }
 
     @Override
     public Collection<City> getCities() {
         return cityRepo.values();
     }
-
-//
 }

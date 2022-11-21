@@ -1,23 +1,21 @@
-package com.bosonit.formacion.City.Model;
+package com.bosonit.formacion.city.model;
 
 import org.springframework.stereotype.Component;
-
 import java.lang.String;
 
 @Component
 public class City {
+    private String name;
+    private int population;
 
-   private String name;
-   private int population;
+    public City(){
 
-   public City(){
-
-   }
+    }
 
     public City(String name, int population){
-       this.name = name;
-       this.population = population;
-   }
+        this.name = name;
+        this.population = population;
+    }
 
 
     public void setName(String name) {
