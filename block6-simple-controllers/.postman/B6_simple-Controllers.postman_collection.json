@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "15ee87ce-a840-44a6-b881-ad65abf083e2",
+		"name": "B6_simple-Controllers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24307076"
+	},
+	"item": [
+		{
+			"name": "users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/users/jessica",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"users",
+						"jessica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "useradd",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"maaria\",\r\n    \"city\": \"seville\",\r\n    \"age\": \"45\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/usersadd",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"usersadd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
