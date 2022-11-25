@@ -1,12 +1,19 @@
-package com.bosonit.formacion.entity.person.application;
+package com.bosonit.formacion.entity.application;
 
-import com.bosonit.formacion.entity.person.domain.Person;
+import com.bosonit.formacion.entity.domain.Person;
 
 import java.io.FileNotFoundException;
+import java.util.Optional;
 
 public interface PersonService {
-    void createPerson(Person person);
+
+    Person createPerson(Person person);
+
     Person updatePerson(Person person);
+
     Person getPerson(String id) throws FileNotFoundException;
+
     void deletePerson(String id);
+
+
 }
