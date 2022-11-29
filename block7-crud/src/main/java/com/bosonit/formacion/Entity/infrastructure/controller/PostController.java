@@ -17,10 +17,9 @@ public class PostController {
     @Autowired
     PersonServiceImp personService;
 
-    @PostMapping("/newPerson")
+    @PostMapping("/new")
     public ResponseEntity<Object> postPerson(@RequestBody Person person){
             personService.createPerson(person);
             return new ResponseEntity<>(person, HttpStatus.OK);
-        // return new ResponseEntity<>("Person created is "  + person.getName() + " with ID: " + person.getId(), HttpStatus.OK);
     }
 }

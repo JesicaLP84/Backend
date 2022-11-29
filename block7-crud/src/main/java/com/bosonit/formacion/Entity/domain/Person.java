@@ -12,10 +12,12 @@ import javax.persistence.*;
 @Entity
 @Table(name = "person") // Se crea la table de person
 public class Person {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
+
 
     @Column
     @NonNull
@@ -29,33 +31,31 @@ public class Person {
     @NonNull
     private String population;
 
-    public Long id() {
+    public Long getId() {
         return id;
     }
+    public void setId(){ this.id = id;}
 
     public String getName(){
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
 
+    public int getAge() {
+        return age;
+    }
     public void setAge(int age) {
         this.age = age;
     }
 
-    public String population() {
+
+    public String getPopulation() {
         return population;
     }
-
     public void setPopulation(String population) {
         this.population = population;
     }
-
-    public Long getId() {
-        return id;
-    }
-
 
 }

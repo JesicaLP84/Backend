@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.FileNotFoundException;
-import java.util.Optional;
+import java.util.List;
 
 @Service
 public class PersonServiceImp implements PersonService{
@@ -21,22 +21,30 @@ public class PersonServiceImp implements PersonService{
     }
 
     @Override
-    public Person updatePerson(Person person){
+    public Person updatePerson( Person person){
         personRepository.save(person);
         return person;
     }
 
     @Override
-    public Person getPerson(String id) throws FileNotFoundException {
-        return null;
+    public Person getPerson(Long id) throws FileNotFoundException {
+        return personRepository.findById(id).orElseThrow(()-> new FileNotFoundException("Usuario no encontrado"));
     }
 
     @Override
-    public void deletePerson(String id) {
-
+    public List<Person> getPersons() {
+        return personRepository.findAll();
     }
 
 
+    @Override
+    public void deletePerson(Long id) {
+        personRepository.deleteById(id);
+    }
 
+    @Override
+    public boolean existsById(Long id) {
+        return personRepository.existsById(id);
+    }
 
 }
