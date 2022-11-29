@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 
-@RestController
+@RestController //Package where the class that acts as a Rest handler is created, that is, expose the APIs that are defined.
 @RequestMapping("person")
 public class PutController {
 
@@ -22,7 +22,7 @@ public class PutController {
     PersonRepository personRepository;
 
 
-    @PutMapping("/{id}")
+    @PutMapping("/{id}") // Put an updated person by Id
     public ResponseEntity<Person> updatePerson(@PathVariable("id") Long id, @RequestBody Person person){
 
         Optional<Person> personDTO = personRepository.findById(id);
@@ -33,7 +33,7 @@ public class PutController {
             _person.setPopulation(person.getPopulation());
             return new ResponseEntity<Person>(personService.updatePerson(_person), HttpStatus.OK);
         }else{
-            return new ResponseEntity<Person>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity<Person>(HttpStatus.NOT_FOUND); // indicates error 404 in Postman
         }
     }
 

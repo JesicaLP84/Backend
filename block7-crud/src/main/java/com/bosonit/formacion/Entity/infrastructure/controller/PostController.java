@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@RestController
+@RestController //Notation to indicate that it is a Rest handler
 @RequestMapping("person")
 public class PostController {
-    @Autowired
+    @Autowired //Dependency injection
     PersonServiceImp personService;
 
+    //The body is going to be a JSON -- Expose a new person
     @PostMapping("/new")
     public ResponseEntity<Object> postPerson(@RequestBody Person person){
             personService.createPerson(person);

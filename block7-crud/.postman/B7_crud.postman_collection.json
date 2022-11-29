@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "08b3592a-f74c-4010-a48d-04d4fbdfcc2a",
+		"name": "B7_crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24307076"
+	},
+	"item": [
+		{
+			"name": "/person/all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/person/all",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"person",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/person/3",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/new",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Gustavo\",\r\n    \"age\": 38,\r\n    \"population\": \"Camas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/person/new",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"person",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/delete/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{local}}/person/delete/2",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"person",
+						"delete",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/person/id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Gustavo\",\r\n    \"age\": 39,\r\n    \"population\": \"Camas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local}}/person/3",
+					"host": [
+						"{{local}}"
+					],
+					"path": [
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

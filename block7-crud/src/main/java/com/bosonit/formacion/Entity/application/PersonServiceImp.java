@@ -8,9 +8,11 @@ import org.springframework.stereotype.Service;
 import java.io.FileNotFoundException;
 import java.util.List;
 
-@Service
+@Service // Package where the class is created that aims to implement the methods that are defined for the application.
+//Ensures that all required data is secure until the transaction is completed
 public class PersonServiceImp implements PersonService{
 
+    //Dependency injection (creates an instance when required)
     @Autowired
     PersonRepository personRepository;
 

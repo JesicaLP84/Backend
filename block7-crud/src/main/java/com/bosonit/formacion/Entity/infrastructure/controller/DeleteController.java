@@ -21,7 +21,7 @@ public class DeleteController {
     @Autowired
     PersonRepository personRepository;
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/delete/{id}") //the person is removed by ID and returns the deleted ID
     public ResponseEntity<Object> deletePerson(@PathVariable ("id") Long id){
         if(!personService.existsById(id))
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);

@@ -5,7 +5,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-@Data
+@Data //Package where the class is created that is limited to being a transfer object between the client and the server.
 public class PersonDTO implements Serializable {
     private String name;
     public PersonDTO getPerson(Person person){

@@ -17,7 +17,7 @@ public class GetController {
     @Autowired
     private PersonService personService;
 
-    @GetMapping("/{id}")
+    @GetMapping("/{id}")  //You get the person by ID
     public ResponseEntity<Person> personById(@PathVariable("id") long id) throws FileNotFoundException {
         if(!personService.existsById(id))
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
@@ -25,7 +25,7 @@ public class GetController {
         return new ResponseEntity<>(personService.getPerson(id),HttpStatus.OK);
     }
 
-    @GetMapping("/all")
+    @GetMapping("/all") //You get the entire list of people in the database
     public List<Person> allPersons(){
         return personService.getPersons();
     }

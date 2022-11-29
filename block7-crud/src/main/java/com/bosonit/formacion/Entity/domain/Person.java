@@ -9,12 +9,12 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
-@Table(name = "person") // Se crea la table de person
+@Entity //Package where the class representing the database table is created - notation to indicate that it is an entity
+@Table(name = "person") // The table de person is created
 public class Person {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id //Primary key of the table
+    @GeneratedValue(strategy = GenerationType.AUTO) //The id field is autonumeric
     @Column(name = "id", nullable = false)
     private Long id;
 
